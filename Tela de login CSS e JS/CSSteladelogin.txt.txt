@@ -1,0 +1,66 @@
+/* Resentando o css base do navegador */
+html, body {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Quicksand', sem serifa;
+}
+/* Aqui estamos importando fontes do google. */
+@import url('https://fonts.googleapis.com/css2? family= Areia movediça:wght@400;500;600;700 & display=swap');
+
+h1{
+color:#1749f0;
+font-size: 40px;
+}
+
+.container{
+    width: 250px;
+    border: 2px solid #ddd;
+    margin: auto;
+    margin-top: 80px;
+    padding: 25px;
+    text-align: center;
+    display: table;
+    padding-top: 5px;
+    border-radius: 8px;
+}
+input{width: 95%;
+    padding: 8px;
+    outline: none;
+    
+  
+}
+input:focus { 
+border: 1px solid #1647e6;
+}
+button{
+width: 103%;
+padding: 8px;
+margin-top: 8px;
+background-color: #1a4ae6;
+border: none;
+color: white;
+outline: none;
+margin-bottom: 10px;
+font-weight: 700;
+font-size: 15px;
+border-radius: 5px;
+
+}
+#btn-entrar:hover{
+
+    cursor: pointer;
+    background-color: #1867F0;
+}
+
+.Grupo{
+
+    text-align: start;
+    margin-bottom: 20px;
+}
+a{
+
+    color:#1647e6;
+    text-decoration: none;
+    float: right;
+}
