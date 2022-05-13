@@ -1,0 +1,42 @@
+#Lista de códigos do curso desenvolvedor web com exemplos de tela de login em codigo HTML
+
+// Função sem parâmetro e sem retorno
+
+function dispararMensagem(){
+
+
+}
+
+// Função com parâmetro e sem retorno
+function dispararMensagem2(mensagem){
+alert(mensagem);
+
+}
+
+// DispararMensagem();
+// dispararMensagem2("Minha mensagem");
+
+//  Função sem parâmetro e com retorno.
+ function retornarNumeroMegasena(){
+ var numero = [12,27,39,53,24,07];
+ return numero;
+}
+ var resultadoMegaSena = retornarNumeroMegasena();
+// Função com parâmetro e com retorno;
+function retornarSeONumeroEParOuImpar(numero){
+  if(numero % 2 != 0){
+return "Impar"
+
+  } else {
+      return "Par"
+  }
+  
+
+}
+
+var numero = prompt("Digite um número");
+
+var resultado = retornarSeONumeroEParOuImpar(numero);
+
+dispararMensagem2(resultado);
+
