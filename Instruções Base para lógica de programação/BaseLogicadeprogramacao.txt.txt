@@ -1,0 +1,15 @@
+
+Aprender e dominar:
+
+1º O que é lógica de programação.
+R. É o caminho que se usa para chegar em um determinado objetivo
+
+2º Inputs e Outputs
+R. Inputs são entradas de dados, Outputs são saídas de dados.
+
+3º Variaveis e constantes.
+4º Condicionais
+5º Array, Vetores
+6º Loopings
+7º Funções
+8º Objetos

@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Deivson Torres"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-30 01:31:59 "/>
+        <attribute name="created" value="RGVpdnNvbiBUb3JyZXM7REVJVlNPTjsyMDIyLTA0LTMwOyIwMTowNDoxNCAiOzMxMTM="/>
+        <attribute name="edited" value="RGVpdnNvbiBUb3JyZXM7REVJVlNPTjsyMDIyLTA0LTMwOyIwMTozMTo1OSAiOzE7MzIzMA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nome, curso" type="String" array="False" size=""/>
+            <output expression="&quot;Digite seu nome: &quot;" newline="True"/>
+            <input variable="nome"/>
+            <output expression="&quot;Digite seu curso: &quot;" newline="True"/>
+            <input variable="curso"/>
+            <declare name="nota1, nota2, nota3, nota4, media" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite sua nota1&quot;" newline="True"/>
+            <input variable="nota1"/>
+            <output expression="&quot;Digite sua nota2&quot;" newline="True"/>
+            <input variable="nota2"/>
+            <output expression="&quot;Digite sua nota3&quot;" newline="True"/>
+            <input variable="nota3"/>
+            <output expression="&quot;Digite sua nota4&quot;" newline="True"/>
+            <input variable="nota4"/>
+            <assign variable="media" expression="(nota1+nota2+nota3+nota4)/4"/>
+            <output expression="media" newline="True"/>
+            <if expression="media&gt;=7">
+                <then>
+                    <output expression="&quot;Parab&#233;ns: &quot; &amp; nome &amp; &quot; Continue no curso para se formar em: &quot; &amp; curso &#13;&#10;&amp; &quot; Sua media foi: &quot; &amp; media &amp; &quot; Voc&#234; foi aprovado!&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;N&#227;o foi dessa vez: &quot; &amp; nome &amp; &quot; Mas siga firme em seu curso de: &quot; &amp; curso &amp; &quot; Sua media foi: &quot; &amp; media &amp; &quot; Estude mais um pouco, voc&#234; foi reprovado!&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
